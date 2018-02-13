@@ -37,7 +37,7 @@ var shirtWidth = 18;
 var shirtLength = 28;
 var shirtSleeve = 8.12
 
-// your code goes here
+
 if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength < 29) && (shirtSleeve >= 8.12 && shirtSleeve < 8.38)){
 console.log("S");
 }
