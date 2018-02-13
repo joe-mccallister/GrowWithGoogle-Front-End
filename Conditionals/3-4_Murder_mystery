@@ -1,4 +1,4 @@
-/*
+
 ************************************************************************************************************************************************
 Directions:
 
@@ -42,9 +42,9 @@ Mr. Parkes did it in the dining room with the knife!
     If room equals gallery and suspect equals Ms. Van Cleve, then Ms. Van Cleve did it in the gallery with the trophy! should be printed to the console.
 
  * Programming Quiz: Murder Mystery (3-4)
-/*
-************************************************************************************************************************************************ 
 
+************************************************************************************************************************************************ 
+```
 // change the value of `room` and `suspect` to test your code
 var room = "billiards room";
 var suspect = "Mrs. Sparr";
@@ -75,3 +75,4 @@ else {
 if (solved) {
 	console.log(suspect + " did it in the " + room + " with the " + weapon + "!");
 }
+```
