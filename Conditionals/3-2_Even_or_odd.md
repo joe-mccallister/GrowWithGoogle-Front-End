@@ -6,7 +6,7 @@
  *
  * Note - make sure to print only the string "even" or the string "odd"
  */
-
+```
 // change the value of `number` to test your if...else statement
 var number = 2;
 
@@ -15,3 +15,4 @@ if (number % 2 === 0) {
 } else {
 console.log("odd");
 }
+```
