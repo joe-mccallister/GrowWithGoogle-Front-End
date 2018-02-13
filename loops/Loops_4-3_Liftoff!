@@ -1,0 +1,42 @@
+/*
+********************************************************************
+Directions:
+
+Write a while loop that counts down from 60 seconds and:
+
+    If there's a task being completed, it prints out the task
+    If there is no task being completed, it prints out the time as T-x seconds
+
+Use the task and time descriptions described above.
+********************************************************************
+*/
+
+var sec = 61
+var text = "T-"
+
+while (sec > 0){
+    sec--;
+    switch (sec){
+    case 50:
+        console.log("Orbiter transfers from ground to internal power");
+        continue;
+    case 31:
+        console.log("Ground launch sequencer is go for auto sequence start");
+        continue;
+    case 16:
+        console.log("Activate launch pad sound suppression system");
+        continue;
+    case 10:
+        console.log("Activate main engine hydrogen burnoff system");
+        continue;
+    case 6:
+        console.log("Main engine start");
+        continue;
+    case 0:
+        console.log("Solid rocket booster ignition and liftoff!");
+        continue;
+    case sec:
+            console.log(text + sec + " seconds");
+}
+
+}
