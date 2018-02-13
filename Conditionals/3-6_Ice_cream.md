@@ -1,4 +1,4 @@
-/*
+
 ******************************************************************************************
 Directions:
 
@@ -30,7 +30,7 @@ I'd like two scoops of vanilla ice cream in a cone with peanuts.
  * We're only testing the if statement and your boolean operators. 
  * It's okay if the output string doesn't match exactly.
  ******************************************************************************************
- */
+
 ```
 // change the values of `flavor`, `vessel`, and `toppings` to test your code
 var flavor = "strawberry";
