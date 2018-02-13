@@ -1,4 +1,4 @@
-/*
+
 ******************************************************************
 Directions:
 
@@ -24,7 +24,7 @@ Write a series of conditional statements that:
 
     // your code goes here
     ******************************************************************
-    */
+```
     if (musicians <= 0){
         console.log("not a group");
     }
@@ -43,3 +43,4 @@ Write a series of conditional statements that:
     else if ( musicians > 4){
         console.log("this is a large group");
     }
+```
