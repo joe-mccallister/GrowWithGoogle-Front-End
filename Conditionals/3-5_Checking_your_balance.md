@@ -1,4 +1,4 @@
-/*
+
 ***********************************************************************************************************************************************
 <h4>Made this an MD in order to display the flowchart properly embedded - coding formatting was affected but the overall target is achieved. </h4>
 Using the flowchart below, write the code to represent checking your balance at the ATM. The yellow diamonds represent conditional statements and the blue rectangles with rounded corners represent what should be printed to the console.
@@ -16,8 +16,8 @@ Hint: The variable balance could be a value less than, greater than, or equal to
     TIP: Make sure to test your code with different values. For example,
 
     If checkBalance equals true and isActive equals false, then Your account is no longer active. should be printed to the console.
-***********************************************************************************************************************************************
-*/
+********************************************************************************************************************************************
+
 var balance = 3.00;
 var checkBalance = true;
 var isActive = true;
