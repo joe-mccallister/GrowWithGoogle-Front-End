@@ -28,16 +28,15 @@ Then print N/A to the console because the measurements don't all match up with o
     If shirtWidth equals 26, shirtLength equals 33 and shirtSleeve equals 9.63, then 2XL should be printed to the console.
     If shirtWidth equals 18, shirtLength equals 29 and shirtSleeve equals 8.47, then N/A should be printed to the console.
 *******************************************************************************************************************************
-/*
+```
  * Programming Quiz: What do I Wear? (3-7)
- */
+
 
 // change the values of `shirtWidth`, `shirtLength`, and `shirtSleeve` to test your code
 var shirtWidth = 18;
 var shirtLength = 28;
 var shirtSleeve = 8.12
 
-```
 if ((shirtWidth >= 18 && shirtWidth < 20) && (shirtLength >= 28 && shirtLength < 29) && (shirtSleeve >= 8.12 && shirtSleeve < 8.38)){
 console.log("S");
 }
