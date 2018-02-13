@@ -17,7 +17,7 @@ Hint: The variable balance could be a value less than, greater than, or equal to
 
     If checkBalance equals true and isActive equals false, then Your account is no longer active. should be printed to the console.
 ********************************************************************************************************************************************
-
+``
 var balance = 3.00;
 var checkBalance = true;
 var isActive = true;
@@ -39,3 +39,4 @@ console.log("Your account is no longer active.");
 else {
 console.log("Thank you. Have a nice day!");
 }
+```
